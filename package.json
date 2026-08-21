@@ -1,0 +1,27 @@
+{
+  "name": "sequelize",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Samar-Mahmoud/sequelize#readme",
+  "bugs": {
+    "url": "https://github.com/Samar-Mahmoud/sequelize/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samar-Mahmoud/sequelize.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start:dev": "node --watch ./src/main.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.23.3",
+    "sequelize": "^6.37.8"
+  }
+}
